@@ -243,7 +243,6 @@ public class Crud{
 
                 try {
                     if (i == esse){
-                        lixo.add(pessoa);
                         dados.remove(i);
                     }
                 } catch (IndexOutOfBoundsException e) {
